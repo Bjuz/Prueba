@@ -88,7 +88,7 @@ function BuscarCliente() {
     })
     var a = setInterval(function(){  if(exite == 1){
         alert("No existe el ID ingresado");
-        windows.location.href = 'https://bjuz.github.io/Prueba/index.html';
+        window.location.href = 'https://bjuz.github.io/Prueba/index.html';
     }
         else{
             btn.style.display = "none";
